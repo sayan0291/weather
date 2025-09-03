@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+  <div class="container">
+    <div class="weather-card">
+      <div class="search-box">
+        <input type="text" placeholder="Enter city" class="search-city">
+        <span class="material-symbols-outlined">🔍</span>
+      </div>
+      <div class="city-name">City Name</div>
+      <img src="images/clouds.png" class="weather-icon">
+      <div class="temp"></div>
+    </div>
+    <div class="more-details">
+      <div class="details">
+        <div class="detail-box">
+          <h3>INFORMATION</h3><span class="main"></span>
+        </div>
+        <div class="detail-box">
+          <h3>Humidity</h3><span class="humidity"></span>
+        </div>
+        <div class="detail-box">
+          <h3>Wind</h3><span class="wind_speed"></span>
+        </div>
+        <div class="detail-box">
+          <h3>Feels Like</h3><span class="feels_like"></span>
+        </div>
+        <div class="detail-box">
+          <h3>Pressure</h3><span class="pressure"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="weather.js"></script>
+</body>
+</html>
