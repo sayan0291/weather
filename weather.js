@@ -52,7 +52,7 @@ async function checkweather(city) {
     feels.textContent = `${Math.round(data.main.feels_like)}°C`;
     wind_speed.textContent = `${Math.round(data.wind.speed)}km/h`;
     main.textContent = `${data.weather[0].main}`;
-    pressure.textContent = `${data.main.pressure}`;
+    pressure.textContent = `${data.main.pressure}mb`;
 }
 
 document.addEventListener('DOMContentLoaded', () => {
